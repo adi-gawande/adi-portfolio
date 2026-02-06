@@ -1,59 +1,170 @@
 ---
-title: 'Appwrite MCP Server'
-description: 'MCP server for Appwrite database operations with 7 powerful tools.'
-image: '/project/appwrite.png'
+title: 'StayEase (Airbnb Clone)'
+description: 'A full-stack Airbnb-inspired web application where users can list properties, explore stays, leave reviews, and authenticate using social or email login.'
+image: '/project/airbnb-clone.png'
 technologies:
-  ['TypeScript', 'Bun', 'Appwrite', 'Vercel', 'Zod', 'Model Context Protocol']
-github: 'https://github.com/ramxcodes/mcp-server'
-live: 'https://mcp.ramx.in/'
-timeline: '5 Hours'
-role: 'Backend Developer'
+  [
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'EJS',
+    'Passport.js',
+    'Mongoose',
+    'Cloudinary',
+    'Mapbox',
+    'Multer',
+    'Joi',
+  ]
+github: 'https://github.com/Rakhisan/Airbnb--Project'
+live: 'N/A'
+timeline: '2 months'
+role: 'Full Stack Developer'
 team: 'Solo'
-status: 'Completed'
+status: 'completed'
 featured: true
 challenges:
-  ['Protocol Implementation', 'Database Integration', 'Real-time Operations']
-learnings: ['MCP Protocol', 'Server Architecture', 'Database Operations']
+  [
+    'User authentication with multiple strategies',
+    'Secure session management',
+    'Image upload & cloud storage',
+    'Location-based listing visualization',
+    'Data validation & security',
+  ]
+learnings:
+  [
+    'Passport.js authentication',
+    'Social login with Google & Facebook',
+    'Session handling with MongoDB',
+    'Cloudinary media management',
+    'Mapbox integration',
+    'Scalable backend architecture',
+  ]
 isPublished: true
 ---
 
+# StayEase: Airbnb-Inspired Full-Stack Web Application
+
 ## Overview
 
-The **Appwrite MCP Server** is a powerful Model Context Protocol server that enables seamless integration of database operations into applications. Built with TypeScript and powered by Appwrite, this server provides 7 tools for basic database operations (It's just a demo, not a production ready server).
+StayEase is a feature-rich full-stack web application inspired by Airbnb.  
+It allows users to **list properties**, **explore stays**, **leave reviews**, and **manage accounts**, with secure authentication and interactive maps.
+
+The project is built using **Node.js, Express.js, and MongoDB**, focusing on real-world backend architecture and user experience.
+
+---
+
+## What Users Can Do
+
+### 🧑 Users
+
+- Sign up & log in using Email, Google, or Facebook
+- Create, edit, and delete property listings
+- Upload listing images securely
+- View listings on interactive maps
+- Add and delete reviews
+- Manage account details and passwords
+
+---
+
+## Why I Built This
+
+I built this project to understand how **production-level web applications** work behind the scenes:
+
+- Implementing **secure authentication systems**
+- Managing **sessions and cookies**
+- Handling **image uploads and cloud storage**
+- Visualizing locations using maps
+- Designing **scalable and maintainable backend architecture**
+
+This project helped me move beyond basic CRUD apps to **real-world system design**.
+
+---
+
+## Tech Stack
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+### Authentication & Security
+
+- Passport.js
+- Passport Local
+- Passport Google OAuth 2.0
+- Passport Facebook
+- Password hashing & encryption
+- Dotenv
+
+### Frontend
+
+- EJS (Embedded JavaScript Templates)
+
+### Media & Maps
+
+- Cloudinary (Image storage)
+- Multer (File uploads)
+- Mapbox (Interactive maps)
+
+### Sessions & Validation
+
+- Connect Mongo
+- Connect Flash
+- Cookie Parser
+- Joi (Data validation)
+
+---
 
 ## Key Features
 
-### **Tools i've implemented**
+- 🔐 Secure authentication (Email, Google, Facebook)
+- 🏠 Property listing management (CRUD)
+- ⭐ Review & rating system
+- 🗺 Interactive map-based location display
+- ☁ Cloud-based image uploads
+- 🛡 Data validation & security best practices
 
-- **Creator Info**: Get detailed information about the developer
-- **Get Document**: Retrieve documents by unique ID
-- **List Documents**: Browse all documents with pagination
-- **Create Document**: Add new documents to collections
-- **Update Document**: Modify existing document data
-- **Delete Document**: Remove documents safely
-- **Upsert Document**: Create or update with single operation
+---
 
-## API Endpoints
+## Challenges & Solutions
 
-### **Core Endpoints**
+- **Authentication complexity:** Solved using Passport.js with multiple strategies
+- **Scalability issues:** Optimized backend structure and database queries
+- **Image handling:** Implemented Cloudinary for efficient cloud storage
+- **Session management:** Used MongoDB-backed session store for persistence
 
-```typescript
-// Main MCP endpoint
-GET /api/tools - Get all tools
+---
 
-POST /api/tools/{toolName} - Run tool
-```
+## Learnings & Impact
 
-### **Tool Operations**
+- Deep understanding of **authentication flows**
+- Hands-on experience with **social login**
+- Learned **cloud media management**
+- Improved backend architecture & debugging skills
+- Built confidence in developing **full-stack production apps**
 
-```typescript
-// Document CRUD operations
-tools: {
-  getDocument: "Retrieve single document",
-  listDocuments: "Get paginated document list",
-  createDocument: "Add new document",
-  updateDocument: "Modify existing document",
-  deleteDocument: "Remove document",
-  upsertDocument: "Create or update document"
-}
-```
+---
+
+## Acknowledgements
+
+Special thanks to **Shradha Khapra** and **Aman Dhattarwal** from **Apna College** for their mentorship and guidance throughout the learning journey.
+
+---
+
+## Author
+
+**Aditya Gawande**  
+📧 Email: adityagawande464@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/adityagawande10/
+
+---
+
+## Future Enhancements
+
+- Booking & payment system
+- Admin dashboard
+- Advanced search & filters
+- Performance optimization
+- UI/UX improvements

@@ -24,7 +24,6 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { toast } from 'sonner';
 import * as z from 'zod';
-
 import Chat from '../svgs/Chat';
 
 const contactFormSchema = z.object({

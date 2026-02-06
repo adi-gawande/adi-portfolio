@@ -23,6 +23,7 @@
  *
  * That's it! Your portfolio will automatically update with your information.
  */
+import ExpressJs from '@/components/technologies/ExpressJs';
 import Github from '@/components/svgs/Github';
 import LinkedIn from '@/components/svgs/LinkedIn';
 import Mail from '@/components/svgs/Mail';
@@ -49,20 +50,26 @@ export const skillComponents = {
   MongoDB: MongoDB,
   Prisma: Prisma,
   JavaScript: JavaScript,
+  ExpressJs: ExpressJs,
 };
 
 export const heroConfig = {
   // Personal Information
-  name: 'Ram',
-  title: 'A Full Stack web developer.',
+  name: 'Aditya Gawande',
+  title: 'Full Stack Developer specializing in MERN stack.',
   avatar: '/assets/logo.png',
 
   // Skills Configuration
   skills: [
     {
-      name: 'Typescript',
-      href: 'https://www.typescriptlang.org/',
-      component: 'TypeScript',
+      name: 'MongoDB',
+      href: 'https://www.mongodb.com/',
+      component: 'MongoDB',
+    },
+    {
+      name: 'Express',
+      href: 'https://expressjs.com/',
+      component: 'ExpressJs',
     },
     {
       name: 'React',
@@ -70,26 +77,16 @@ export const heroConfig = {
       component: 'ReactIcon',
     },
     {
-      name: 'Next.js',
-      href: 'https://nextjs.org/',
-      component: 'NextJs',
-    },
-    {
-      name: 'Bun',
-      href: 'https://bun.sh/',
-      component: 'Bun',
-    },
-    {
-      name: 'PostgreSQL',
-      href: 'https://www.postgresql.org/',
-      component: 'PostgreSQL',
+      name: 'Node.js',
+      href: 'https://nodejs.org/',
+      component: 'NodeJs',
     },
   ],
 
   // Description Configuration
   description: {
     template:
-      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, {skills:3} and {skills:4}. With a focus on <b>UI</b> design. Enthusiastic about <b>Three.js</b>, driven by a keen eye for design.',
+      'Full Stack Developer specializing in <b>MERN stack</b> ({skills:0}, {skills:1}, {skills:2}, {skills:3}) with proven experience in building responsive, scalable, and production-ready web applications. Strong background in <b>REST APIs</b>, cloud integration, and UI/UX optimization.',
   },
 
   // Buttons Configuration
@@ -113,22 +110,22 @@ export const heroConfig = {
 export const socialLinks = [
   {
     name: 'X',
-    href: 'https://x.com/ramxcodes',
+    href: 'https://x.com/AdityaGawande10',
     icon: <X />,
   },
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/ramxcodes/',
+    href: 'https://www.linkedin.com/in/AdityaGawande10',
     icon: <LinkedIn />,
   },
   {
     name: 'Github',
-    href: 'https://github.com/ramxcodes',
+    href: 'https://github.com/adi-gawande',
     icon: <Github />,
   },
   {
     name: 'Email',
-    href: 'mailto:ramxcodes@gmail.com',
+    href: 'mailto:adityagawande464@gmail.com',
     icon: <Mail />,
   },
 ];

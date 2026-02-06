@@ -21,6 +21,6 @@ export const mySkills = [
 ];
 
 export const about = {
-  name: 'Ramkrishna Swarnkar',
-  description: `I'm a Full Stack web developer and Open Source Contributor, I love building products to solve real-world problems. I'm specialized in building MVP's.`,
+  name: 'Aditya Gawande',
+  description: `Full Stack Developer specializing in MERN stack (MongoDB, Express, React, Node.js) with proven experience in building responsive, scalable, and production-ready web applications. Strong background in REST APIs, cloud integration, and UI/UX optimization. Adept at collaborating in team environments, solving complex problems, and continuously upskilling in modern technologies.`,
 };

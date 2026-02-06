@@ -102,7 +102,7 @@ export default async function ProjectCaseStudyPage({
           next={navigation.next}
         />
 
-        {/* Related Projects */}
+        {/* Related Projects
         {relatedProjects.length > 0 && (
           <div className="space-y-6">
             <Separator />
@@ -164,7 +164,7 @@ export default async function ProjectCaseStudyPage({
               </div>
             </div>
           </div>
-        )}
+        )} */}
 
         {/* Back to Projects CTA */}
         <div className="text-center">
