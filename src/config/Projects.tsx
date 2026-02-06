@@ -122,9 +122,9 @@ export const projects: Project[] = [
   {
     title: 'Hospital Management System',
     description:
-      'Personal challenge tracker for completing 500 DSA problems, earning ₹300,000, and improving fitness within 6 months',
-    image: '/project/quest.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/quest.mp4',
+      'Personal HMS challenge for building a complete Hospital Management System, improving full-stack skills, and deploying a production-ready project within 6 months',
+    image: '/project/HMS.png',
+    video: '',
     link: 'https://quest.ramx.in/',
     technologies: [
       { name: 'Next.js', icon: <NextJs key="nextjs" /> },
